@@ -11,7 +11,7 @@ function draw() {
     rectMode(CENTER)
     rect(x, y, 250, 150)
 }
-function mouseMoved() {
+function mouseDragged() {
     set(x = mouseX)
     set(y = mouseY)
     fill(random(255), random(255), random(255))
